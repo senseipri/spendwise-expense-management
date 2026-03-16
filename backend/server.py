@@ -52,4 +52,4 @@ def get_analytics(date_range: DateRange):
 
 @app.on_event("startup")
 async def startup_message():
-    print("Backend is running at: http://localhost:8000")
+    print("Backend started successfully")
