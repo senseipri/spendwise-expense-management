@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 from datetime import date, timedelta
 
-API_BASE_URL = "https://expense-tracker-api-8b9m.onrender.com/"  # match your backend
+API_BASE_URL = "https://expense-tracker-api-8b9m.onrender.com"  # match your backend
 
 
 def fetch_category_analytics(start_date: date, end_date: date):

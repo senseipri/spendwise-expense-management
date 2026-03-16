@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 from datetime import date
 
-API_BASE_URL = "https://expense-tracker-api-8b9m.onrender.com/"  # change port if your backend runs on another one
+API_BASE_URL = "https://expense-tracker-api-8b9m.onrender.com"  # change port if your backend runs on another one
 CATEGORIES = ["Rent", "Food", "Shopping", "Entertainment", "Other"]
 NUM_ROWS = 5
 
